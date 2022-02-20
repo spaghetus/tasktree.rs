@@ -1,0 +1,19 @@
+[tasks.a]
+description = "Task A, a symbolic task which depends on tasks B and C, and is due in the future"
+depends_on = ["b", "c"]
+symbolic = true
+complete = false
+due = "3000-01-01T00:00:00+06:00"
+
+[tasks.b]
+description = "Task B, which takes one hour to complete"
+estimated_time = { secs = 3600, nanos = 0 }
+depends_on = []
+symbolic = false
+complete = false
+
+[tasks.c]
+description = "Task C, which is complete."
+depends_on = []
+symbolic = false
+complete = true
