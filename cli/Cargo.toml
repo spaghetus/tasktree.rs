@@ -1,0 +1,18 @@
+[package]
+name = "tasktree-cli"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+tasktree-core = { path = "../core" }
+inquire = { version = "*", features = ["date"] }
+structopt = "*"
+lazy_static = "*"
+toml = "*"
+serde_json = "*"
+parse_duration = "*"
+ptree = "*"
+chrono = "*"
+fuzzydate = "*"

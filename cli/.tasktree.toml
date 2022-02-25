@@ -1,0 +1,13 @@
+long_break_after = 4
+
+[pomodoro_length]
+secs = 1200
+nanos = 0
+
+[short_break_length]
+secs = 300
+nanos = 0
+
+[long_break_length]
+secs = 900
+nanos = 0

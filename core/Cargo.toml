@@ -7,7 +7,7 @@ edition = "2021"
 
 [dependencies]
 serde = { version = "*", features = ["derive"] }
-solvent = "*"
+petgraph = "*"
 chrono = { version = "*", features = ["serde"] }
 anyhow = "*"
 thiserror = "*"
